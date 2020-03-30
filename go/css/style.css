@@ -1,10 +1,16 @@
 body{
     font-family: "Lucida Console", Monaco, monospace;
+    background-image: url('../images/drive.jpeg');
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-size: 1536px 700px;
 }
 .title{
-    margin: 200px -40px 0px 130px;
+    margin: 200px -40px 0px 240px;
     width: 25%;
     display: inline-block;
+    font-weight: bolder;
+    text-shadow: black 2px 2px;
 }
 /* Calculation Form Starts */
 .calc{
@@ -23,7 +29,7 @@ body{
     
 }
 
-.calc-title, .calc-subheader{
+.calc-title, .calc-subheader,.title{
     color: white;
 }
 
