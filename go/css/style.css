@@ -1,51 +1,34 @@
-body{
-    font-family: "Lucida Console", Monaco, monospace;
-    background-image: url('../images/drive.jpeg');
-    background-repeat: no-repeat, repeat;
-    background-size: cover;
-    background-size: 1536px 700px;
+/* Global CSS */
+* {
+  font-family: "Lucida Console", Monaco, monospace;
 }
-.title{
+
+body {
+  background-image: url("../images/drive.jpeg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  background-size: 1536px 700px;
+}
+
+form legend {
+  font-size: 42px;
+}
+
+
+
+/* Desktops & Laptops */
+@media only screen and (min-width: 1200px) {
+  /* Application Form Starts */
+.title {
     margin: 200px -40px 0px 240px;
     width: 25%;
     display: inline-block;
     font-weight: bolder;
     text-shadow: black 2px 2px;
-}
-/* Calculation Form Starts */
-.calc{
-    margin-top: 150px;
-    padding-left: 35px;
-    padding-top: 20px;
-    padding-bottom: 0;
-    background-color: #772953;
-    height: 200px;
-    clear: float;
-}
+  }
+  
 
-#hours{
-    margin-top: 30px;
-    margin-right: 10px;
-    
-}
-
-.calc-title, .calc-subheader,.title{
-    color: white;
-}
-
-.calc-btn{
-margin-left: 25px;
-}
-
-/* Calculation Form Ends */
-
-/* Application Form Starts */
-
-form legend{
-    font-size: 42px;
-}
-
-.apply{
+  .apply {
     background-color: whitesmoke;
     border: solid 2px #772953;
     width: 18%;
@@ -55,11 +38,141 @@ form legend{
     margin-top: 30px;
     box-shadow: whitesmoke;
     border-radius: 8px;
-}
+  }
 
-.firstname,.lastname,.email,.phone,.promo, .city{
+  .firstname,
+  .lastname,
+  .email,
+  .phone,
+  .promo,
+  .city {
     margin: 10px;
     padding: 5px;
+  }
+  /* Application Form Ends */
+
+  /* Calculation Form Starts */
+  
+  #hours {
+    margin-top: 30px;
+    margin-right: 10px;
+  }
+
+  .calc-title,
+  .calc-subheader,
+  .title {
+    color: white;
+  }
+
+  .calc-btn {
+    margin-left: 25px;
+  }
+  /* Calculation Form Ends */
 }
 
-/* Add Responsive Code */
+/* Tablets */
+@media only screen and (min-width: 768px) {
+    .title {
+        margin: 200px -40px 0px 240px;
+        width: 25%;
+        display: inline-block;
+        font-weight: bolder;
+        text-shadow: black 2px 2px;
+      }
+    
+  .apply {
+    background-color: whitesmoke;
+    border: solid 2px #772953;
+    width: 27%;
+    padding: 12px;
+    margin-right: 70px;
+    float: right;
+    margin-top: 30px;
+    box-shadow: whitesmoke;
+    border-radius: 8px;
+  }
+
+  .firstname,
+  .lastname,
+  .email,
+  .phone,
+  .promo,
+  .city,
+  .agree,
+  .become {
+    margin: 10px;
+    padding: 5px;
+  }
+
+  .calc {
+    margin-top: 330px;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 0;
+    background-color: #772953;
+    height: 190px;
+    margin-bottom: -5px;
+
+    
+  }
+
+  #hours {
+    margin-top: 30px;
+    margin-right: 10px;
+  }
+
+  .calc-title,
+  .calc-subheader,
+  .title {
+    color: white;
+  }
+
+  .calc-btn {
+    margin-left: 25px;
+  }
+}
+
+/* Mobile Devices */
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: url("../images/woman.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: contain;
+  }
+  .title {
+    margin-top: 380px;
+    padding: 10px;
+    font-size: 32px;
+    font-weight: bolder;
+    text-shadow: white 2px 2px;
+  }
+
+  .apply {
+    border: solid 2px #772953;
+    width: 94%;
+    padding: 10px;
+    margin: 40px 18px 30px 10px;
+    border-radius: 8px;
+  }
+
+  .calc {
+    margin-top: 14px;
+    padding-left: 35px;
+    padding-top: 20px;
+    background-color: #772953;
+    height: 200px;
+    clear: float;
+  }
+
+  .calc-form {
+    float: right;
+    padding-top: 50px;
+    margin: 5px;
+  }
+
+  .calc-subheader {
+    font-size: 20px;
+    color: white;
+    float: left;
+  }
+}
