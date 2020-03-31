@@ -10,6 +10,14 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
     <link rel="stylesheet" href="https://bootswatch.com/4/united/bootstrap.min.css">
     <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+      // Changes page h1
+  $("document").ready(function(){
+    $('h1:contains("up to")').text('Be Your Own Boss');
+  })
+
+    </script>
 
     <title>Go</title>
   </head>
@@ -25,14 +33,14 @@
 <!-- Phone Menu -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="navbar-brand menu-toggle">
-        <h3>Go</h3>
+        <h3>GO</h3>
         <button class="navbar-toggler" type="button" id="menu-btn">
           <span class="navbar-toggler-icon"></span>
         </button>
       </div>
 <!-- Tablet/Computer Menu -->
       <ul id="menu" class="ace-responsive-menu " data-menu-style="horizontal primary">
-        <li class="nav-item active"><a href="#" class="navbar-brand">Logo</a></li>
+        <li class="nav-item active"><a href="#" class="navbar-brand">GO</a></li>
       <li class="nav-item"><a href="#" class="navbar-brand">Cities</a></li>
       <li class="nav-item"><a href="#" class="navbar-brand">Drive</a></li>
       <li class="nav-item"><a href="#" class="navbar-brand">Blog</a></li>
@@ -55,7 +63,7 @@
         <input type="email" name="email" class="email" placeholder="Email Address"><br>
         <input type="text" class="city" placeholder="City"><br>
         <input type="number" class="phone" placeholder="Phone Number"><br>
-        <input type="text" class="promo" placeholder="Promo Code (optional)"><br>
+        <input type="text" class="promo" placeholder="Promo Code(optional)"><br>
         <input type="checkbox" name="agree" class="agree">
         <label>I agree to Go terms</label> <br>
         <button class="become btn btn-primary">BECOME A DRIVER</button>
