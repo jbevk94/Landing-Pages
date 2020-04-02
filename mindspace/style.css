@@ -7,25 +7,55 @@
     border-top: 1px solid white;
 }
 
-.title{
-    font-size: 26px;
-    padding-top: 20px;
-    padding-left: 10px;
+.title, .reasons, .choose{
+    font-size: 24px;
+    padding-top: 26px;
+    padding-left: 14px;
+    padding-right: 10px;
 }
 
 .subtitle{
     font-size: 16px;
-    padding-top: 10px;
+    padding-top: 15px;
     margin-left: 40px;
+    color: gray;
 }
 
+.card{
+   padding: 10px;
+   border: none;
+   margin-top: 20px;
+}
 
+.card-img-top{
+    border-radius: 5px;
+}
 
+.fa-arrow-right{
+    float: right;
+}
 
+.btn-primary{
+    width: 100%;
+}
 
+.reasons-why{
+text-align: left;
 
+}
 
+.phone{
+    width: 100%;
+    height: auto;   
+}
 
+.carousel-text{
+    width: 80% !important;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
 
 
 }
