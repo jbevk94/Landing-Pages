@@ -7,7 +7,7 @@ body {
   background-image: url("../images/drive.jpeg");
   background-repeat: no-repeat, repeat;
   background-size: cover;
-  background-size: 1536px 700px;
+  background-size: 1536px 730px;
 }
 
 form legend {
@@ -15,18 +15,16 @@ form legend {
 }
 
 
-
 /* Desktops & Laptops */
 @media only screen and (min-width: 1200px) {
   /* Application Form Starts */
-.title {
+  .title {
     margin: 200px -40px 0px 240px;
     width: 25%;
     display: inline-block;
     font-weight: bolder;
     text-shadow: black 2px 2px;
   }
-  
 
   .apply {
     background-color: whitesmoke;
@@ -52,7 +50,16 @@ form legend {
   /* Application Form Ends */
 
   /* Calculation Form Starts */
-  
+  .calc {
+    margin-top: 20px;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 0;
+    background-color: #772953;
+    height: 190px;
+    margin-bottom: -5px;
+  }
+
   #hours {
     margin-top: 30px;
     margin-right: 10px;
@@ -72,24 +79,25 @@ form legend {
 
 /* Tablets */
 @media only screen and (min-width: 768px) {
-    .title {
-        margin: 200px -40px 0px 240px;
-        width: 25%;
-        display: inline-block;
-        font-weight: bolder;
-        text-shadow: black 2px 2px;
-      }
-    
+  .title {
+    margin: 200px -40px 0px 240px;
+    width: 25%;
+    display: inline-block;
+    font-weight: bolder;
+    text-shadow: black 2px 2px;
+  }
+
   .apply {
     background-color: whitesmoke;
     border: solid 2px #772953;
-    width: 27%;
+    width: 25%;
     padding: 12px;
     margin-right: 70px;
     float: right;
     margin-top: 30px;
     box-shadow: whitesmoke;
     border-radius: 8px;
+    text-align: center;
   }
 
   .firstname,
@@ -112,8 +120,6 @@ form legend {
     background-color: #772953;
     height: 190px;
     margin-bottom: -5px;
-
-    
   }
 
   #hours {
