@@ -1,5 +1,5 @@
 @media only screen and (max-width: 600px) {
-.navbar {
+   .navbar {
     line-height: 50px;
 }
 
@@ -7,7 +7,7 @@
     border-top: 1px solid white;
 }
 
-.title, .reasons, .choose{
+.title, .reasons, .choose, .how-to, .experience{
     font-size: 24px;
     padding-top: 26px;
     padding-left: 14px;
@@ -57,5 +57,57 @@ text-align: left;
     margin-top: 20px;
 }
 
+.showcase{
+    padding: 20px;
+}
+
+.showcase-price{
+    color: whitesmoke;
+    padding-bottom: 35px;
+    background-color: black;
+    height: 12px;
+    opacity: 0.6;
+    border-radius: 30px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+}
+
+.showcase img{
+    border-radius: 16px;
+   
+}
+
+.para{
+    padding: 10px;
+}
+
+/* Office Spaces */
+
+.office-space{
+    background-color: #2a2e2c;
+    line-height: 40px;
+    padding: 10px;
+}
+
+.office-title{
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.offices{
+    font-size: 14px;
+}
+a{
+    color: gray;
+}
+
+footer{
+    background-color: #2a2e2c;
+    width: 100%;
+    color: whitesmoke;
+    padding: 20px 40px;
+}
 
 }
