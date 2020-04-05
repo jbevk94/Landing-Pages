@@ -57,6 +57,18 @@ text-align: left;
     margin-top: 20px;
 }
 
+.review{
+    background-color: #007bff;
+    border-radius: 26px;
+    color: white;
+
+}
+
+.review hr{
+    width: 20%;
+    border-top: black 1px solid;
+}
+
 .showcase{
     padding: 20px;
 }
@@ -82,6 +94,12 @@ text-align: left;
 .para{
     padding: 10px;
 }
+
+.card .fas, .far{
+    padding-left: 30px;
+}
+
+
 
 /* Office Spaces */
 
